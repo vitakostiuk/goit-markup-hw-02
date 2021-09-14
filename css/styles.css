@@ -7,11 +7,18 @@
 body {
   background-color: #ffffff;
   color: var(--primary-text-color);
+
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
 }
 
 /* Логотип */
 .logo {
-  color: #2196f3;
+  color: var(--accent-color);
+
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
 }
 
 .logo-header {
@@ -24,25 +31,125 @@ body {
 
 /* Главная навигация */
 .main-nav .link {
-  color: #212121;
+  color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
+/* Контакты хедер*/
+.contacts-nav .link {
+  color: var(--primary-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
 .main-nav .link:hover,
-.main-nav .link:focus {
-  color: #2196f3;
+.main-nav .link:focus,
+.main-nav .selected,
+.contacts-nav .link:hover,
+.contacts-nav .link:focus {
+  color: var(--accent-color);
 }
 
-/* #212121 nav, section-title
+/* Блок герой, футер*/
+.hero,
+.footer {
+  background-color: #2f303a;
+}
 
-#2196F3 accent
+.hero-title {
+  color: #ffffff;
 
-#000000 logo
-#2196F3 logo
-#FFFFFF logo, footer
+  font-family: Roboto, sans-serif;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
 
+/* Кнопка */
+.btn {
+  background-color: var(--accent-color);
+  color: #ffffff;
 
-#757575 tel, email, main text, card-text
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: center;
+  letter-spacing: 0.06em;
 
-#F5F4FA вторичный цвет фона
+  cursor: pointer;
+}
 
-*/
+/* .btn:hover,
+.btn:focus {
+  color: var(--accent-color);
+} */
+
+/* Секции */
+.section-title {
+  color: var(--title-text-color);
+
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* Преимущества */
+.feature-list .title {
+  color: var(--title-text-color);
+
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.feature-list .text {
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* Наша команда */
+.team {
+  background-color: #f5f4fa;
+}
+
+.team .member {
+  color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.team .position {
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+/* Футер */
+.contacts-footer .link,
+.contacts-footer .address {
+  color: rgba(255, 255, 255, 0.6);
+
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+.contacts-footer .address {
+  color: #ffffff;
+}
