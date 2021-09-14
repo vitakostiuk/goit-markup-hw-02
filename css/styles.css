@@ -1,0 +1,48 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+}
+
+body {
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+}
+
+/* Логотип */
+.logo {
+  color: #2196f3;
+}
+
+.logo-header {
+  color: #000000;
+}
+
+.logo-footer {
+  color: #ffffff;
+}
+
+/* Главная навигация */
+.main-nav .link {
+  color: #212121;
+}
+
+.main-nav .link:hover,
+.main-nav .link:focus {
+  color: #2196f3;
+}
+
+/* #212121 nav, section-title
+
+#2196F3 accent
+
+#000000 logo
+#2196F3 logo
+#FFFFFF logo, footer
+
+
+#757575 tel, email, main text, card-text
+
+#F5F4FA вторичный цвет фона
+
+*/
