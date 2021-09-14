@@ -50,9 +50,12 @@ body {
 }
 .main-nav .link:hover,
 .main-nav .link:focus,
-.main-nav .selected,
 .contacts-nav .link:hover,
 .contacts-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.main-nav .link.current {
   color: var(--accent-color);
 }
 
