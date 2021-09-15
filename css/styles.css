@@ -48,10 +48,13 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+
 .main-nav .link:hover,
 .main-nav .link:focus,
 .contacts-nav .link:hover,
-.contacts-nav .link:focus {
+.contacts-nav .link:focus,
+.contacts-footer .link:hover,
+.contacts-footer .link:focus {
   color: var(--accent-color);
 }
 
@@ -68,7 +71,6 @@ body {
 .hero-title {
   color: #ffffff;
 
-  font-family: Roboto, sans-serif;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -82,7 +84,7 @@ body {
   background-color: var(--accent-color);
   color: #ffffff;
 
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
@@ -99,6 +101,10 @@ body {
 }
 
 /* Секции */
+.section-title.hiden {
+  display: none;
+}
+
 .section-title {
   color: var(--title-text-color);
 
@@ -164,7 +170,7 @@ body {
   background-color: #f5f4fa;
   color: var(--title-text-color);
 
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
