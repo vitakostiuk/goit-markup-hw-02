@@ -92,10 +92,11 @@ body {
   cursor: pointer;
 }
 
-/* .btn:hover,
+.btn:hover,
 .btn:focus {
-  color: var(--accent-color);
-} */
+  background-color: #f5f4fa;
+  color: var(--title-text-color);
+}
 
 /* Секции */
 .section-title {
@@ -155,4 +156,42 @@ body {
 
 .contacts-footer .address {
   color: #ffffff;
+}
+
+/* Страница портфолио */
+/* Фильтр кнопки */
+.filter-list .button {
+  background-color: #f5f4fa;
+  color: var(--title-text-color);
+
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  cursor: pointer;
+}
+
+.filter-list .button:hover,
+.filter-list .button:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+
+/* Проекты */
+.projects .title {
+  color: var(--title-text-color);
+
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.projects .filter {
+  color: var(--primary-text-color);
+
+  font-size: 16px;
+  line-height: 1.9;
 }
