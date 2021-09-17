@@ -81,10 +81,7 @@ body {
 
 /* Кнопка */
 .btn {
-  background-color: #188ce8;
-  color: #ffffff;
-
-  font-family: Roboto, sans-serif;
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
@@ -92,6 +89,11 @@ body {
   letter-spacing: 0.06em;
 
   cursor: pointer;
+}
+
+.hero-btn {
+  background-color: #188ce8;
+  color: #ffffff;
 }
 
 .btn:hover,
@@ -165,24 +167,15 @@ body {
 
 /* Страница портфолио */
 /* Фильтр кнопки */
-.filter-list .button {
+.filter-btn {
   background-color: #f5f4fa;
   color: var(--title-text-color);
-
-  font-family: Roboto, sans-serif;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.9;
-  text-align: center;
-  letter-spacing: 0.06em;
-
-  cursor: pointer;
 }
 
-.filter-list .button:hover,
-.filter-list .button:focus {
-  background-color: var(--accent-color);
+.filter-btn:hover,
+.filter-btn:focus {
   color: #ffffff;
+  background-color: var(--accent-color);
 }
 
 /* Проекты */
